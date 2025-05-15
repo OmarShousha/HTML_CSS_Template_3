@@ -79,38 +79,10 @@
   .container {
     width: 970px;
   }
-  .landing .container {
-    text-align: left;
-    justify-content: space-between;
-  }
-  .landing .image {
-    display: block;
-  }
-  .landing .image img {
-    width: 600px;
-    max-width: 100%;
-    position: relative;
-    animation: up-and-down 5s linear infinite;
-  }
-  @keyframes up-and-down {
-    0%,
-    100% {
-      top: 0;
-    }
-    50% {
-      top: -50px;
-    }
-  }
+  
 
   .mega-menu {
     gap: 40px;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* gap: 15px; */
-    /* padding: 33px; */
-  }
-  .mega-menu ul {
-    /* min-width: 220px; */
   }
   .mega-menu ul :last-child {
     border-bottom: 0;
@@ -172,32 +144,6 @@
   }
   .how-it-works .container {
     gap: 6em;
-  }
-  /* .events .dots, .pricing .dots {
-    display: block;
-    background-image: url(../images/dots.png);
-    height: 186px;
-    width: 204px;
-    background-repeat: no-repeat;
-    position: absolute;
-  } */
-  .events .dots-up {
-    top: 200px;
-    right: 0;
-  }
-  .events .dots-down {
-    bottom: 200px;
-    left: 0;
-  }
-  .pricing .dots-up {
-    top: 200px;
-    right: 0;
-    z-index: 0;
-  }
-  .pricing .dots-down {
-    bottom: 30px;
-    left: 0;
-    z-index: 0;
   }
   .pricing article:nth-child(2) {
     transform: translateY(-20px);
