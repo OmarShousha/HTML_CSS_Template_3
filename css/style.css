@@ -667,22 +667,22 @@ ul:nth-of-type(2) li:last-child {
   background-repeat: no-repeat;
 }
 .testimonials article.one::before {
-  background-image: url("/images/avatar-01.png");
+  background-image: url("../images/avatar-01.png");
 }
 .testimonials article.two::before {
-  background-image: url("/images/avatar-02.png");
+  background-image: url("../images/avatar-02.png");
 }
 .testimonials article.three::before {
-  background-image: url("/images/avatar-03.png");
+  background-image: url("../images/avatar-03.png");
 }
 .testimonials article.four::before {
-  background-image: url("/images/avatar-04.png");
+  background-image: url("../images/avatar-04.png");
 }
 .testimonials article.five::before {
-  background-image: url("/images/avatar-05.png");
+  background-image: url("../images/avatar-05.png");
 }
 .testimonials article.last::before {
-  background-image: url("/images/avatar-06.png");
+  background-image: url("../images/avatar-06.png");
 }
 .testimonials article h3,
 p,
