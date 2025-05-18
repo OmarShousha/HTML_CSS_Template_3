@@ -1016,9 +1016,11 @@ span,
 /*? ----------------> Latest Events <--------------- */
 
 .events .container {
+  /* background-color: #009688; */
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  z-index: 3;
 }
 @media (min-width: 992px) {
   .events{
@@ -1031,7 +1033,7 @@ span,
     width: 204px;
     background-repeat: no-repeat;
     position: absolute;
-    z-index: 2;
+    z-index: -1;
   }
   .events .dots-up {
     top: 200px;
@@ -1058,6 +1060,7 @@ span,
   gap: 10px;
 }
 .events .info .time .unit {
+  background-color: white;
   text-align: center;
   border: 1px solid #d4d4d4;
   border-radius: 6px;
@@ -1139,7 +1142,7 @@ span,
     width: 204px;
     background-repeat: no-repeat;
     position: absolute;
-    z-index: 2;
+    z-index: 0;
   }
   .pricing .dots-up {
     top: 200px;
